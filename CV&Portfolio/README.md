@@ -1,6 +1,6 @@
-# [CV-Portefolio](https://pages.github.com/)
+# [CV&Portfolio](https://pages.github.com/)
 
-[CV-Portefolio](http://startbootstrap.com/template-overviews/simple-sidebar/) is a webpage which contains projects about IA, Machine learning and Deep learning  created by [Hugo Santos].
+[CV&Portfolio](http://startbootstrap.com/template-overviews/simple-sidebar/) is a webpage which contains projects about IA, Machine learning and Deep learning  created by [Hugo Santos].
 
 ## Preview
 
@@ -8,13 +8,6 @@
 
 **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-simple-sidebar/)**
 
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-simple-sidebar/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-simple-sidebar.svg)](https://www.npmjs.com/package/startbootstrap-simple-sidebar)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-simple-sidebar.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-simple-sidebar)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-simple-sidebar/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-simple-sidebar)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-simple-sidebar/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-simple-sidebar?type=dev)
 
 ## Download and Installation
 
