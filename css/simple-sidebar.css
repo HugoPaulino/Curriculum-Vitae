@@ -54,13 +54,10 @@ p.lead {
 #sidebar-wrapper .sidebar-heading {
   padding: 0.875rem 1.25rem;
   font-size: 1.2rem;
-  position: fixed;
 }
 
 #sidebar-wrapper .list-group {
   width: 15rem;
-  position: fixed;
-  top: 2rem;
 }
 
 #page-content-wrapper {
@@ -74,7 +71,6 @@ p.lead {
 @media (min-width: 768px) {
   #sidebar-wrapper {
     margin-left: 0;
-    width: 18rem;
   }
 
   #page-content-wrapper {
