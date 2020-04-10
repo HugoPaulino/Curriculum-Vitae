@@ -1,301 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Resume-Portfolio</title>
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-  </head>
-  <body>
-    <div class="d-flex " id="wrapper">
-      <!-- Sidebar -->
-      <div class=" nav-bar border-right " id="sidebar-wrapper">
-        <div class="sidebar-heading ">Resume-Portfolio</div>
-        <div class="list-group list-group-flush ">
-          <li class="nav-item js-scroll-trigger">
-            <a href="#about" class="list-group-item list-group-item-action nav-link ">About Me</a>
-            <a href="#experience" class="list-group-item list-group-item-action nav-link">Experience</a>
-            <a href="#education" class="list-group-item list-group-item-action nav-link ">Education</a>
-            <a href="#projects" class="list-group-item list-group-item-action nav-link">Projects</a>
-            <a href="#skills" class="list-group-item list-group-item-action ">Skills</a>
-            <a href="#interests" class="list-group-item list-group-item-action ">Interests</a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Resume-Portfolio</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+</head>
+<!--<div class="list-group list-group-flush ">
+        <a href="#about" class="list-group-item list-group-item-action nav-link ">About Me</a>
+        <a href="#experience" class="list-group-item list-group-item-action nav-link">Experience</a>
+        <a href="#education" class="list-group-item list-group-item-action nav-link ">Education</a>
+        <a href="#projects" class="list-group-item list-group-item-action nav-link">Projects</a>
+        <a href="#skills" class="list-group-item list-group-item-action ">Skills</a>
+        <a href="#interests" class="list-group-item list-group-item-action ">Interests</a>
+      </div>
+    </div> -->
+<body>
+  <div class="container-fluid" >
+    <div class="row">
+      <nav class="col-md-3 d-none d-md-block bg-light sidebar" style="position: fixed; padding-right: 0px">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+            
+            <div class=" nav-bar border-right"  id="sidebar-wrapper">
+            
+              <div class="sidebar-heading ">Resume&Portfolio</div>
+      
+              <li class="nav-item">
+                <a class="nav-link active" href="#about">
+                  <i class="fas fa-address-card"></i>
+                  <!--<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> -->
+                  About Me <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">
+                  <!--<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg> -->
+                  <i class="fas fa-tasks"></i>
+                  Experience
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">
+                <i class="fas fa-user-graduate"></i>
+                   Education
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">
+                  <!--<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>-->
+                  <i class="fas fa-tasks"></i>
+                  Projects
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">
+                <i class="fa fa-cogs" aria-hidden="true"></i>
+
+                  <!--<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> -->
+                  Skills
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#interests">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                  Interests
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#extractivity">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                  Extracurricular Activity
+                </a>
+              </li>
             </ul>
           </div>
-        </div>
-        <!-- /#sidebar-wrapper -->
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+          <div class="d-flex justify-content-between flex-wrap align-items-center pb-2 mb-3 border-bottom">
           <div class="container-fluid p-0">
-            <div class="container-fluid p-0">
-              
-              <!-- About Me -->
-              <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-                <div class="w-100">
-                  <h1 class="mb-0">Hugo
-                  <span class="text-primary">Santos</span>
-                  </h1>
-                   <h3 class="mb-0">Data Scientist</h3>
-                  <div class="subheading mb-5">Lisbon · Portugal
-                    <a href="hugo.paulino.santos@gmail.com">hugo.paulino.santos@gmail.com</a>
-                  </div>
-                  <p class="lead mb-5">I am a Data Scientist and a Big Data enthusiast with a Computer Science background. My work experience allowed me to work in several
-                    challenging Machine Learning problems. I was responsible for developing a Document Classification system, where I was able to obtain
-                    70% of accuracy on a multi-label classification problem using Random Forest. Worked on a Object detection module for Automated
-                    Document Parsing (PDFs) using state of the art Deep Learning techniques. Also, have experience working with Graphs to solve problems
-                    like Costumer Churn and Client Segmentation. During the development of some of my projects I was also responsible for managing
-                    necessary stakeholders.
-                    The love for new technologies and challenges is what motivates me and I am always interested in learning new things.</p>
-                  
-                  <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/hugopaulinosantos/">
-                      <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://github.com/HugoPaulino">
-                      <i class="fab fa-github"></i>
-                    </a>
-                    <a href="files/CV_EN_Hugo_Paulino_Santos.pdf">
-                      <i class="fas fa-file-pdf"></i>
-                    </a>
-                  </div>
-                </div>
-
-              <!-- Experience -->
-
-              </section>
-              <hr class="m-0">
-              <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-                <div class="w-100">
-                  <h2 class="mb-5">Experience</h2>
-                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                      <h3 class="mb-0">Data Scientist Team Lead</h3>
-                      <div class="subheading mb-3">Celfocus</div>
-                      <p>• Responsible for mentoring one team member in a data science project.
-                        <br>• Responsible for creating new business value proposals and presenting them.
-                        <br>• Development of data science solutions such as Anomaly Detection in Set up Boxes.
-                        <br>• <b>Technologies:</b> Python, Apache Spark, Pyspark, AWS(S3,EMR), GitLab, Zeppelin, Python Bokeh.
-                      </p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                      <span class="text-primary">October 2019 - Present</span>
-                    </div>
-                  </div>
-                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                      <h3 class="mb-0">Monitor</h3>
-                      <div class="subheading mb-3">ISCTE-IUL</div>
-                      <p>• Responsible for create contents and teaching hands-on classes on Big Data Algorithms.<br>
-                        • Lectures can be found <a href="https://github.com/HugoPaulino/ABD">here</a>.  
-                         <br>• <b>Technologies:</b> Apache Spark, Python, Hadoop.
-                      </p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                      <span class="text-primary">October 2019 - Present</span>
-                    </div>
-                  </div>
-                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                      <h3 class="mb-0">Data Scientist & Researcher</h3>
-                      <div class="subheading mb-3">Novabase</div>
-                      <p>• Parser library to convert PDF,Image,HTML files into Data Objects.
-                        <br>• Research state of the art methodologies to parse documents. Choosing approaches based on research.
-                        <br>• Deep Learning using Faster R-CNN, SSD, YOLO networks for Object detection and localization.
-                        <br>• <b>Technologies:</b> Java, Python, Deep Learning, Image Processing, Tensorflow, Keras.
-                      </p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                      <span class="text-primary">October 2017 - Present</span>
-                    </div>
-                  </div>
-                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                      <h3 class="mb-0">Full Stack Developer</h3>
-                      <div class="subheading mb-3">Novabase</div>
-                      <p>• Development of new functionalities in a document platform, which classify documents using machine learning techniques NLP.</p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                      <span class="text-primary">May 2017 - October 2017</span>
-                    </div>
-                  </div>
-                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                      <h3 class="mb-0">Full stack developer</h3>
-                      <div class="subheading mb-3">GS1 - Portugal</div>
-                      <p>• Developed a traceability system with Outsytems Platform.<br>
-                      •<b> Technologies:</b> Outsystems, .Net, Javascript, CSS, HTML5.</p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                      <span class="text-primary">April 2016 - May 2017</span>
-                    </div>
-                  </div>
-                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                    <div class="resume-content">
-                      <h3 class="mb-0">Backend Developer</h3>
-                      <div class="subheading mb-3">KCSIT(Contractor) - Timwe(Client)</div>
-                      <p>• Developing Billing API’s to integrate with Mobile Operators.
-                        <br>• Developing webapps that run on Tomcat, tested using with JUnit.
-                        <br>• Log analysis.
-                        <br>• <b>Technologies:</b> Java, Shell Scripting, REST, SOAP, SVN, JUnit.
-                      </p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                      <span class="text-primary">April 2015 - April 2016</span>
-                    </div>
-                  </div>
-                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                    <div class="resume-content">
-                      <h3 class="mb-0">Backend Developer</h3>
-                      <div class="subheading mb-3">ITSECTOR(Contractor)- Millennium BCP(Client)</div>
-                      <p>• Log Analysis/ Requests analysis.
-                        <br>• Ongoing maintenance.
-                        <br>• <b>Technologies:</b> Java, Shell Scripting, SOAP, JUnit, TFS
-                      </p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                      <span class="text-primary">July 2014 - April 2016</span>
-                    </div>
-                  </div>
-                </div>
-
-
-              <!-- Education -->
-
-              </section>
-              <hr class="m-0">
-              <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-                <div class="w-100">
-                  <h2 class="mb-5">Education</h2>
-                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                      <h3 class="mb-0">ISCTE(University Institute of Lisbon)</h3>
-                      <div class="subheading mb-3">Postgraduate</div>
-                      <div>Computer Science and Business Management</div>
-                      <p>14 Values</p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                      <span class="text-primary">October 2016 - july 2017</span>
-                    </div>
-                  </div>
-                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                    <div class="resume-content">
-                      <h3 class="mb-0">IPCB(Institute Polytechnic of Castelo Branco)</h3>
-                      <div class="subheading mb-3">Bachelor</div>
-                      <div>Computer Science and Engineering</div>
-                      <p>15 Values</p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                      <span class="text-primary">October 2010 - june 2014</span>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <hr class="m-0">
-
-              <!-- Projects-->
-
-              <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
-              <div class="w-100">
-                <h2 class="mb-5">Projects</h2>
-                <ul class="fa-ul mb-0">
-                  <li>
-                    <a href="https://jfmeimoa.pt">• JFMeimoa website </a> 
-                    </li>
-                  
-                </ul>
+          <!-- About Me -->
+          <section class="resume-section p-3 p-lg-5  align-items-center" id="about">
+            <div class="w-100">
+              <h1 class="mb-0">Hugo
+                <span class="text-primary">Santos</span>
+              </h1>
+              <h3 class="mb-0">Data Scientist</h3>
+              <div class="subheading mb-5">Lisbon · Portugal
+                <a href="hugo.paulino.santos@gmail.com">hugo.paulino.santos@gmail.com</a>
               </div>
-            </section>
+              <p class="lead mb-5">I am a Data Scientist and a Big Data enthusiast with a Computer Science background.
+                My work experience allowed me to work in several
+                challenging Machine Learning problems. I was responsible for developing a Document Classification
+                system, where I was able to obtain
+                70% of accuracy on a multi-label classification problem using Random Forest. Worked on a Object
+                detection module for Automated
+                Document Parsing (PDFs) using state of the art Deep Learning techniques. Also, have experience working
+                with Graphs to solve problems
+                like Costumer Churn and Client Segmentation. During the development of some of my projects I was also
+                responsible for managing
+                necessary stakeholders.
+                The love for new technologies and challenges is what motivates me and I am always interested in learning
+                new things.</p>
 
-
-
-              <!-- Skills -->
-
-              <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-                <div class="w-100">
-                  <h2 class="mb-5">Skills</h2>
-                  <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-                  <ul class="list-inline dev-icons">
-                   <li class="list-inline-item">
-                      <i class="fab fa-python"></i>
-                    </li>
-                    <li class="list-inline-item">
-                      <i class="fab fa-java"></i>
-                    </li>
-                    <li class="list-inline-item">
-                      <i class="fab fa-html5"></i>
-                    </li>
-                    <li class="list-inline-item">
-                      <i class="fab fa-css3-alt"></i>
-                    </li>
-                  </ul>
-                </section>
-
-                <!-- Interests -->
-                <hr class="m-0">
-                <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-                  <div class="w-100">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a Data Scientist and Full Stack Developer, I enjoy most of my time in Beekeeping, I have a small farm where I have some beehive. I enjoy traveling, have visited almost ten countries.</p>
-                    <p class="mb-0"> As hobbies I used to train Krav maga and boxing. and I spend a large amount of my free time exploring the technology related with data science world.</p>
-                  </div>
-                </section>
-                <hr class="m-0">
-
-
-                 <!-- Extracurricular Activity -->
-                <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="extractivity">
-                  <div class="w-100">
-                    <h2 class="mb-5">Extracurricular Activity</h2>
-                    <ul class="fa-ul mb-0">
-                      <li>
-                        <i class=" text-warning"></i>
-                      <b>DaBeira</b></li>
-                      <li>
-                        <i class=" text-warning"></i>
-                      4Date</li>
-                      <li>
-                        <i class=" text-warning"></i>
-                        4<sup>rd</sup>
-                      Imagine Cup Portuguese Final (4rd place)- Citizenship: SensesIM 2014</li>
-                      <li>
-                        <i class=" text-warning"></i>
-                      Android Workshop</li>
-                      <li>
-                        <i class=" text-warning"></i>
-                      ISCTE - Class delegate 2016 -2017</li>
-                      <li>
-                        <i class=" text-warning"></i>
-                      Enei(Annual meeting of computer engineering students) 2014</li>
-                    </ul>
-                  </div>
-                </section>
-                
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/hugopaulinosantos/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/HugoPaulino">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="files/CV_EN_Hugo_Paulino_Santos.pdf">
+                  <i class="fas fa-file-pdf"></i>
+                </a>
               </div>
             </div>
-          </div>
-          <!-- /#page-content-wrapper -->
-        </div>
-        <!-- /#wrapper -->
-        <!-- Bootstrap core JavaScript -->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="js/resume-portfolio.js"></script>
-        <!-- Menu Toggle Script -->
-        
-        <script>
-        $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-        });
-        </script> 
-      </body>
-    </html>
+          </section>
+
+          <!-- Experience -->
+          <hr class="m-0">
+          <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+            <div class="w-100">
+              <h2 class="mb-5">Experience</h2>
+              <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                  <h3 class="mb-0">Data Scientist Team Lead</h3>
+                  <div class="subheading mb-3">Celfocus</div>
+                  <p>• Responsible for mentoring one team member in a data science project.
+                    <br>• Responsible for creating new business value proposals and presenting them.
+                    <br>• Development of data science solutions such as Anomaly Detection in Set up Boxes.
+                    <br>• <b>Technologies:</b> Python, Apache Spark, Pyspark, AWS(S3,EMR), GitLab, Zeppelin, Python
+                    Bokeh.
+                  </p>
+                </div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">October 2019 - Present</span>
+                </div>
+              </div>
+              <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                  <h3 class="mb-0">Monitor</h3>
+                  <div class="subheading mb-3">ISCTE-IUL</div>
+                  <p>• Responsible for create contents and teaching hands-on classes on Big Data Algorithms.<br>
+                    • Lectures can be found <a href="https://github.com/HugoPaulino/ABD">here</a>.
+                    <br>• <b>Technologies:</b> Apache Spark, Python, Hadoop.
+                  </p>
+                </div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">October 2019 - Present</span>
+                </div>
+              </div>
+              <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                  <h3 class="mb-0">Data Scientist & Researcher</h3>
+                  <div class="subheading mb-3">Novabase</div>
+                  <p>• Parser library to convert PDF,Image,HTML files into Data Objects.
+                    <br>• Research state of the art methodologies to parse documents. Choosing approaches based on
+                    research.
+                    <br>• Deep Learning using Faster R-CNN, SSD, YOLO networks for Object detection and localization.
+                    <br>• <b>Technologies:</b> Java, Python, Deep Learning, Image Processing, Tensorflow, Keras.
+                  </p>
+                </div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">October 2017 - Present</span>
+                </div>
+              </div>
+              <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                  <h3 class="mb-0">Full Stack Developer</h3>
+                  <div class="subheading mb-3">Novabase</div>
+                  <p>• Development of new functionalities in a document platform, which classify documents using machine
+                    learning techniques NLP.</p>
+                </div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">May 2017 - October 2017</span>
+                </div>
+              </div>
+              <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                  <h3 class="mb-0">Full stack developer</h3>
+                  <div class="subheading mb-3">GS1 - Portugal</div>
+                  <p>• Developed a traceability system with Outsytems Platform.<br>
+                    •<b> Technologies:</b> Outsystems, .Net, Javascript, CSS, HTML5.</p>
+                </div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">April 2016 - May 2017</span>
+                </div>
+              </div>
+              <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div class="resume-content">
+                  <h3 class="mb-0">Backend Developer</h3>
+                  <div class="subheading mb-3">KCSIT(Contractor) - Timwe(Client)</div>
+                  <p>• Developing Billing API’s to integrate with Mobile Operators.
+                    <br>• Developing webapps that run on Tomcat, tested using with JUnit.
+                    <br>• Log analysis.
+                    <br>• <b>Technologies:</b> Java, Shell Scripting, REST, SOAP, SVN, JUnit.
+                  </p>
+                </div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">April 2015 - April 2016</span>
+                </div>
+              </div>
+              <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div class="resume-content">
+                  <h3 class="mb-0">Backend Developer</h3>
+                  <div class="subheading mb-3">ITSECTOR(Contractor)- Millennium BCP(Client)</div>
+                  <p>• Log Analysis/ Requests analysis.
+                    <br>• Ongoing maintenance.
+                    <br>• <b>Technologies:</b> Java, Shell Scripting, SOAP, JUnit, TFS
+                  </p>
+                </div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">July 2014 - April 2016</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+           <!-- Education -->
+          <hr class="m-0">
+          <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+            <div class="w-100">
+              <h2 class="mb-5">Education</h2>
+              <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                  <h3 class="mb-0">ISCTE(University Institute of Lisbon)</h3>
+                  <div class="subheading mb-3">Postgraduate</div>
+                  <div>Computer Science and Business Management</div>
+                  <p>14 Values</p>
+                </div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">October 2016 - july 2017</span>
+                </div>
+              </div>
+              <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div class="resume-content">
+                  <h3 class="mb-0">IPCB(Institute Polytechnic of Castelo Branco)</h3>
+                  <div class="subheading mb-3">Bachelor</div>
+                  <div>Computer Science and Engineering</div>
+                  <p>15 Values</p>
+                </div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">October 2010 - june 2014</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Projects-->
+          <hr class="m-0">
+          <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+            <div class="w-100">
+              <h2 class="mb-5">Projects</h2>
+              <ul class="fa-ul mb-0">
+                <li>
+                  <a href="https://jfmeimoa.pt">• JFMeimoa website </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Skills -->
+          <hr class="m-0">
+          <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+            <div class="w-100">
+              <h2 class="mb-5">Skills</h2>
+              <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+              <ul class="list-inline dev-icons">
+                <li class="list-inline-item">
+                  <i class="fab fa-python"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fab fa-java"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fab fa-html5"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fab fa-css3-alt"></i>
+                </li>
+              </ul>
+          </section>
+
+          <!-- Interests -->
+          <hr class="m-0">
+          <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+            <div class="w-100">
+              <h2 class="mb-5">Interests</h2>
+              <p>Apart from being a Data Scientist and Full Stack Developer, I enjoy most of my time in Beekeeping, I
+                have a small farm where I have some beehive. I enjoy traveling, have visited almost ten countries.</p>
+              <p class="mb-0"> As hobbies I used to train Krav maga and boxing. and I spend a large amount of my free
+                time exploring the technology related with data science world.</p>
+            </div>
+          </section>
+
+
+          <!-- Extracurricular Activity -->
+          <hr class="m-0">
+          <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="extractivity">
+            <div class="w-100">
+              <h2 class="mb-5">Extracurricular Activity</h2>
+              <ul class="fa-ul mb-0">
+                <li>
+                  <i class=" text-warning"></i>
+                  <b>DaBeira</b></li>
+                <li>
+                  <i class=" text-warning"></i>
+                  4Date</li>
+                <li>
+                  <i class=" text-warning"></i>
+                  4<sup>rd</sup>
+                  Imagine Cup Portuguese Final (4rd place)- Citizenship: SensesIM 2014</li>
+                <li>
+                  <i class=" text-warning"></i>
+                  Android Workshop</li>
+                <li>
+                  <i class=" text-warning"></i>
+                  ISCTE - Class delegate 2016 -2017</li>
+                <li>
+                  <i class=" text-warning"></i>
+                  Enei(Annual meeting of computer engineering students) 2014</li>
+              </ul>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+  </div>
+  </div>
+  <!-- /#wrapper -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/resume-portfolio.js"></script>
+  <!-- Menu Toggle Script -->
+
+  <script>
+    $("#menu-toggle").click(function (e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+</body>
+
+</html>
